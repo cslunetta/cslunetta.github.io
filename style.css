@@ -287,7 +287,7 @@ button:focus {
     content: '';
     left: 0;
     bottom: 0;
-    width: 50%;
+    width: 55%;
     height: 100%;
     /* TODO Removed background color */
     /* background-color: #03989e; */
@@ -334,6 +334,7 @@ button:focus {
 
 .hero-content h2 {
     color: #fff;
+    text-shadow: 5px 6px 0 #000, 0px 1px 0 #000, 1px 1px 0 #000;
     font-size: 90px;
     font-weight: 600;
     line-height: 1;
@@ -595,6 +596,7 @@ button:focus {
 .single-service {
     background-color: #fff;
     padding: 15px;
+    min-height: 323px;
     border: 1px solid #03989e;
     -webkit-transition: .3s;
     transition: .3s;
