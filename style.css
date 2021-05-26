@@ -52,8 +52,8 @@ a {
 }
 
 a:hover {
-    color: #000;
-    text-decoration: none;
+    color: white;
+    text-decoration: underline;
 }
 
 h1,
@@ -782,6 +782,10 @@ button:focus {
     top: 50%
 }
 
+.portfolio-icon h4 {
+    color: #fff;
+}
+
 .portfolio-icon a {
     font-size: 15px;
     color: #fff;
@@ -802,6 +806,9 @@ button:focus {
     color: #fff;
     text-transform: uppercase;
     text-align: center;
+}
+.portfolio-hover h4 a {
+    color: #fff;
 }
 
 .portfolio-hover {
