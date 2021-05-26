@@ -596,7 +596,7 @@ button:focus {
 .single-service {
     background-color: #fff;
     padding: 15px;
-    min-height: 323px;
+    min-height: 383px;
     border: 1px solid #03989e;
     -webkit-transition: .3s;
     transition: .3s;
@@ -606,6 +606,7 @@ button:focus {
 }
 
 .single-service h2,
+.single-service h4,
 .single-service p {
     -webkit-transition: .3s;
     transition: .3s;
@@ -625,6 +626,7 @@ button:focus {
 }
 
 .single-service:hover h2,
+.single-service:hover h4,
 .single-service:hover p {
     color: #fff
 }
