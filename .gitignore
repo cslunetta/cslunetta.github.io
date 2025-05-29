@@ -6,31 +6,44 @@
 # ----------------------------------------
 # Visual Studio / VS Code specific files
 # ----------------------------------------
-.vs/                      # Visual Studio workspace settings
-*.suo                    # Solution user options (per-user config)
-*.user                   # User-specific project settings
-*.userosscache           # Cache file for opened projects
-*.sln.docstates          # Tracks open documents state in VS
+# Visual Studio workspace settings
+.vs/                      
+# Solution user options (per-user config)
+*.suo                    
+# User-specific project settings
+*.user                   
+# Cache file for opened projects
+*.userosscache           
+# Tracks open documents state in VS
+*.sln.docstates          
 
 # ----------------------------------------
 # Build artifacts (do not include compiled files)
 # ----------------------------------------
-bin/                     # Output binaries for default project
-obj/                     # Intermediate object files
-Portfolio.Blazor/bin/    # Explicitly ignore Blazor project bin
-Portfolio.Blazor/obj/    # Explicitly ignore Blazor project obj
+# Output binaries for default project
+bin/                     
+# Intermediate object files
+obj/                     
+# Explicitly ignore Blazor project bin
+Portfolio.Blazor/bin/    
+# Explicitly ignore Blazor project obj
+Portfolio.Blazor/obj/    
 
 # ----------------------------------------
 # Databases and generated model artifacts
 # ----------------------------------------
-*.dbmdl                  # Visual Studio local DB model files
-*.sqlite                 # SQLite database files (local dev only)
+# Visual Studio local DB model files
+*.dbmdl                  
+# SQLite database files (local dev only)
+*.sqlite                 
 
 # ----------------------------------------
 # Node / front-end tooling (future-proof)
 # ----------------------------------------
-node_modules/            # Node.js package dependencies (if used)
-dist/                    # Front-end build output (JS, CSS, static)
+# Node.js package dependencies (if used)
+node_modules/            
+# Front-end build output (JS, CSS, static)
+dist/                    
 
 # ----------------------------------------
 # Solution files (do not ignore unless explicitly unwanted)
@@ -40,5 +53,7 @@ dist/                    # Front-end build output (JS, CSS, static)
 # ----------------------------------------
 # OS-specific / tooling (optional)
 # ----------------------------------------
-.DS_Store                # macOS folder cache
-Thumbs.db                # Windows image cache
+# macOS folder cache
+.DS_Store                
+# Windows image cache
+Thumbs.db                
