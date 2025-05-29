@@ -1,13 +1,44 @@
-# Visual Studio files
-.vs/
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
+# --------------------------------------------------
+# Project: Blazor Portfolio Site (.NET, GitHub Pages)
+# Description: Ignore build artifacts, local settings, and tool-specific files
+# --------------------------------------------------
 
-# SQLite local DB
-*.sqlite
+# ----------------------------------------
+# Visual Studio / VS Code specific files
+# ----------------------------------------
+.vs/                      # Visual Studio workspace settings
+*.suo                    # Solution user options (per-user config)
+*.user                   # User-specific project settings
+*.userosscache           # Cache file for opened projects
+*.sln.docstates          # Tracks open documents state in VS
 
-# Node / package artifacts (if applicable later)
-node_modules/
-dist/
+# ----------------------------------------
+# Build artifacts (do not include compiled files)
+# ----------------------------------------
+bin/                     # Output binaries for default project
+obj/                     # Intermediate object files
+Portfolio.Blazor/bin/    # Explicitly ignore Blazor project bin
+Portfolio.Blazor/obj/    # Explicitly ignore Blazor project obj
+
+# ----------------------------------------
+# Databases and generated model artifacts
+# ----------------------------------------
+*.dbmdl                  # Visual Studio local DB model files
+*.sqlite                 # SQLite database files (local dev only)
+
+# ----------------------------------------
+# Node / front-end tooling (future-proof)
+# ----------------------------------------
+node_modules/            # Node.js package dependencies (if used)
+dist/                    # Front-end build output (JS, CSS, static)
+
+# ----------------------------------------
+# Solution files (do not ignore unless explicitly unwanted)
+# ----------------------------------------
+# *.sln                  # Uncomment only if you don't want to track solution files
+
+# ----------------------------------------
+# OS-specific / tooling (optional)
+# ----------------------------------------
+.DS_Store                # macOS folder cache
+Thumbs.db                # Windows image cache
