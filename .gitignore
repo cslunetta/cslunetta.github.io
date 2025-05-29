@@ -1,0 +1,13 @@
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# SQLite local DB
+*.sqlite
+
+# Node / package artifacts (if applicable later)
+node_modules/
+dist/
